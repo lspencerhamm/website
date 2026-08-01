@@ -617,8 +617,16 @@
     <div class="fp-lead">
 
       <!-- Photo column -->
-        <div class="fp-col" style="display: flex; flex-direction: column; align-items: center; padding-right: 2vw;">
-          <img src="Headshot_6.25.26.jpg" ... />
+    <div class="fp-col" style="padding-right: 2vw;">
+
+        <img src="Headshot_6.25.26.jpg" alt="Langston Spencer-Hamm"
+             class="hero-photo"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="hero-photo-placeholder" style="display:none;" aria-hidden="true">
+          <svg width="160" height="160" viewBox="0 0 160 160" fill="none" style="opacity:0.12;">
+            <ellipse cx="80" cy="58" rx="36" ry="42" stroke="#EDEDEA" stroke-width="0.8"/>
+            <path d="M20 160 Q20 110 80 110 Q140 110 140 160" stroke="#EDEDEA" stroke-width="0.8" fill="none"/>
+          </svg>
         </div>
         <div class="t-byline" style="margin-top:0.75rem;">Williamsburg, VA · Class of 2027</div>
       </div>
